@@ -1,7 +1,7 @@
 Pod::Spec.new do |s| 
 
 	s.name 						= 'GZGFirstPOD'
-	s.version 					= '0.1.0'
+	s.version 					= '0.2.0'
 	s.summary 					= 'This is a test of how create a POD'
 
 	s.description 				= <<-DESC
@@ -14,7 +14,7 @@ This is the description for the first POD
 	s.source					= { :git => 'https://github.com/Zempoalteca/FirstPOD.git', :tag => s.version }
 	s.ios.deployment_target 	= '12.0'
 	s.swift_versions			= '5.0'
-	s.source_files				= 'FirstPod/FantasticView.swift'
+	s.source_files				= 'FirstPod/*.swift'
 	#s.source_files				= 'FirstPod/*.swift' // All .swift files
 	#s.source_files				= 'FirstPod/*' // All files
 	#s.source_files				= 'FirstPod/*.{swift,plist}' // Filtered by type
